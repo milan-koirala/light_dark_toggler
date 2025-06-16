@@ -1,20 +1,18 @@
-<<<<<<< HEAD
-# light_dark_toggler
+# 🌗 LightDarkToggler
 
-A new Flutter project.
+LightDarkToggler is a simple Flutter app that lets users switch between light and dark modes with a smooth UI. It's a perfect starting point to understand Flutter theming and user interface responsiveness.
 
-## Getting Started
+## 🎯 Purpose
 
-This project is a starting point for a Flutter application.
+This project was created to learn and demonstrate how to:
 
-A few resources to get you started if this is your first Flutter project:
+- Manage theme modes in Flutter
+- Switch dynamically between light and dark UI
+- Keep the app clean, fast, and responsive
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔧 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# light_dark_toggler
->>>>>>> 667a141688d95ad72df2908c0424ef7b6b3f2da2
+- ✅ Light/Dark theme toggle
+- ✅ Smooth transition
+- ✅ Material Design UI
+- ✅ Easy to customize
