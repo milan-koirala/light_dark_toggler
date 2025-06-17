@@ -4,7 +4,7 @@ class MyBox extends StatelessWidget {
   final Widget? child;
   final Color? color;
 
-  MyBox({
+  const MyBox({
     super.key,
     required this.child,
     required this.color,
