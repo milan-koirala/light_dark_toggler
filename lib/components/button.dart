@@ -11,20 +11,15 @@ class MyButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
         decoration: BoxDecoration(
-          color: color ?? Colors.blue,
-          borderRadius: BorderRadius.circular(12),
+          color: color,
+          borderRadius: BorderRadius.circular(8),
         ),
-        child: const Text(
-          'Toggle',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
+        padding: const EdgeInsets.all(25),
+        child: const Center(child: Text("TAP"),),
       ),
     );
   }
 }
+        
+        
