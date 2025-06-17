@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:light_dark_toggler/components/box.dart';
+import 'package:light_dark_toggler/components/button.dart';
+import 'package:light_dark_toggler/theme/theme_provider.dart';
+import 'package:provider/provider.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -6,8 +10,18 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[500],
-      
+      backgroundColor: Theme.of(context).colorScheme.surface,
+      body: Center(
+        child: MyBox(
+          color: Theme.of(context).colorScheme.primary,
+          child: MyButton(
+            color: Theme.of(context).colorScheme.secondary,
+            onTap: () {
+              Provider.of<ThemeProvider>(context, listen: false).toggleTheme();
+            },
+          ),
+        ),
+      ),
     );
   }
 }
